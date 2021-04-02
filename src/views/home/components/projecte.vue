@@ -1,9 +1,20 @@
 <template>
   <div class="projecte">
     <projecteBasic>
-      <template #name>联通沃阅读</template>
-      <template #desc>联通沃阅读， 项目访问地址：联通手厅营业厅-小说。</template>
-      <template #difficulty>广告SDK调用，版本兼容，iOS和安卓的兼容</template>
+      <template #name>
+        <span>联通沃阅读</span>
+        
+      </template>
+      <template #desc>联通营业厅小说阅读，项目访问地址：联通手厅营业厅-小说。</template>
+      <!-- <template #difficulty>广告SDK调用，版本兼容，iOS和安卓的兼容</template> -->
+      <template #otherName1>项目难点：</template>
+      <template #otherContent1>
+        <p>1.穿山甲广告SDK调用，和穿山甲广告开发人员的联调。广告的测试，需要上灰度。</p>
+        <p>2.手厅版本兼容。8.0和8.0以下的区别很大。</p>
+        <p>3.iOS和安卓的兼容，手厅的api在iOS上和安卓上有着一些明显的调用差异。</p>
+        <p>4.</p>
+        <p>4.和联通手厅开发人员的沟通以及功能的联调。</p>
+      </template>
       <template #dec>jsp， jQuery</template>
     </projecteBasic>
 
@@ -74,6 +85,13 @@
     </projecteBasic>
 
     <projecteBasic>
+      <template #name>星城园丁志愿者项目</template>
+      <template #desc>星城园丁由长沙市公安局与互联网公司合作打造的互联网 + 群防群治平台，公司与长沙市公安局合作，着力打造政府政策激励与市场的物质奖励的“双轮驱动模式”，开发模块名为交通事故远程处理志愿者的项目，协助交警解决一些交通事故，让事故车主走线上平台，以尽快的方式来承担此次事故中的责任，此项目中我担任前端开发并架构，此项目是内嵌项目，嵌套到为星城园丁App里的H5项目， 目前为长沙星城园丁志愿者所使用。</template>
+      <template #dec>vue，vuex axios，vue-router，vant，scss。</template>
+      <template #difficulty>上传图片需调用星城园丁SDK。</template>
+    </projecteBasic>
+
+    <projecteBasic>
       <template #name>中国人寿财险湖南省分公司公众号</template>
       <template #desc>为中国人寿湖南省分公司开发的一个公众号， 其业务包括道路救援， 家政服务， 车务代办， 出险代步，代驾，洗车， 维修，预约保养，安全检测， 违章查询等功能。</template>
       <template #dec>vue, vux, vuex, axios, vue-router。</template>
@@ -127,6 +145,12 @@ export default {
 
 <style lang="scss">
   .projecte {
-    
+    .projecte-name-work {
+      font-weight: 400;
+      color: #999d9c;
+      font-size: 13px;
+      margin-left: 20px;
+      vertical-align: top;
+    }
   }
 </style>

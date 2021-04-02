@@ -112,7 +112,7 @@ export default {
       workList: [{
         title: '江苏中兴华易科技发展有限公司',
         z: '前端开发',
-        time: '2020.08-2021.04',
+        time: '2020.08 - 2021.04',
         children: [{
           text: '负责联通沃阅读项目日常开发'
         }, {
@@ -125,7 +125,7 @@ export default {
       }, {
         title: '湖南车哈哈汽车科技股份有限公司',
         z: '前端开发',
-        time: '2019.02-2020.07',
+        time: '2019.02 - 2020.07',
         children: [{
           text: '基于vue + Element开发后台管理系统。'
         }, {
@@ -140,7 +140,7 @@ export default {
       }, {
         title: '湖南友靠科技有限公司',
         z: '前端开发',
-        time: '2017.12-2019.02',
+        time: '2017.12 - 2019.02',
         children: [{
           text: '使用vue框架和element-ui开发后台管理系统'
         }, {
@@ -162,7 +162,7 @@ export default {
   .home-main {
     width: 800px;
     margin: 0 auto 0;
-    // background-color: #f2f0f5;
+    background-color: #f2f0f5;
     padding: 60px 0;
     color: #333;
     .header {
