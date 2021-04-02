@@ -3,16 +3,19 @@
     <projecteBasic>
       <template #name>
         <span>联通沃阅读</span>
-        
       </template>
-      <template #desc>联通营业厅小说阅读，项目访问地址：联通手厅营业厅-小说。</template>
+      <template #desc>
+        项目从14年开始开发，一直在不断迭代更新，目前有小说阅读模块，听书模块。对接过穿山甲，看广告功能，大数据上报打点功能等，小说阅读模块采用jsp后台模板渲染的技术，听书模块是基于vue从0到1构建，功能包括小说推荐，播放定时，音质选择，集数选择， 最近读播放等。
+      </template>
+      <template #link>
+        联通手厅营业厅-小说。
+      </template>
       <!-- <template #difficulty>广告SDK调用，版本兼容，iOS和安卓的兼容</template> -->
       <template #otherName1>项目难点：</template>
       <template #otherContent1>
         <p>1.穿山甲广告SDK调用，和穿山甲广告开发人员的联调。广告的测试，需要上灰度。</p>
         <p>2.手厅版本兼容。8.0和8.0以下的区别很大。</p>
         <p>3.iOS和安卓的兼容，手厅的api在iOS上和安卓上有着一些明显的调用差异。</p>
-        <p>4.</p>
         <p>4.和联通手厅开发人员的沟通以及功能的联调。</p>
       </template>
       <template #dec>jsp， jQuery</template>

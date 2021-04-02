@@ -21,7 +21,7 @@ export default {
 <style lang="scss">
   .individual-item {
     position: relative;
-    line-height: 1.2;
+    line-height: 1.5;
     font-size: 15px;
     color: #000;
     
@@ -43,6 +43,6 @@ export default {
     }
   }
   .individual-item + .individual-item {
-    margin-top: 15px;
+    margin-top: 10px;
   }
 </style>

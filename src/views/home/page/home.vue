@@ -56,7 +56,7 @@
       </div>
       <div class="social-contact">
         <span class="social-contact_label">个人网站：</span>
-        <span><a class="social-contact_link" href="http://www.97blognb.cn/#/">http://www.97blognb.cn/#/</a></span>
+        <span><a class="social-contact_link" href="http://www.97blognb.cn/#/">http://www.97blognb.cn/</a></span>
       </div>
     </modeWrap>
 
@@ -114,13 +114,13 @@ export default {
         z: '前端开发',
         time: '2020.08 - 2021.04',
         children: [{
-          text: '负责联通沃阅读项目日常开发'
+          text: '负责联通沃阅读核心业务项目的迭代开发和维护。'
         }, {
-          text: '负责项目新需求的评估和评审'
+          text: '负责项目新需求的评估和评审。'
         }, {
-          text: '负责重构公司jsp项目至vue'
+          text: '负责对项目的老模块的重构，将原有的使用老框架的代码逐步换成统一的Vue写法，可以有效的减少后续对老模块的维护成本。'
         }, {
-          text: '负责优化公司遗留问题代码，梳理开发规则，提取代码组建化，提升开发和维护效率'
+          text: '提取代码组建化，提升开发和维护效率。'
         }]
       }, {
         title: '湖南车哈哈汽车科技股份有限公司',
@@ -162,7 +162,7 @@ export default {
   .home-main {
     width: 800px;
     margin: 0 auto 0;
-    background-color: #f2f0f5;
+    // background-color: #f2f0f5;
     padding: 60px 0;
     color: #333;
     .header {
